@@ -45,18 +45,18 @@ public class InputFormSubmit extends TestRunner {
 
 	@Given("^Fill in Name, Email, and other fields$")
 	public void fill_in_Name_Email_and_other_fields() throws Throwable {
-	    IForm.Name().sendKeys("Noothan");
-	    IForm.Email().sendKeys("janjacob@gmail.com");
-	    IForm.Password().sendKeys("nenucheppanu");
+	    IForm.Name().sendKeys("Pavani sri");
+	    IForm.Email().sendKeys("pavanisri@gmail.com");
+	    IForm.Password().sendKeys("pavani");
 	    IForm.Company().sendKeys("admbal");
 	    IForm.Website().sendKeys("https://www.lambdatest.com/");
 	    Select city =  new Select(IForm.Country());
 		city.selectByVisibleText("United States");
 	    IForm.City().sendKeys("Tirupati");
-	    IForm.Address1().sendKeys("dno-11,maa street");
-	    IForm.Address2().sendKeys("maa nagaram");
-	    IForm.State().sendKeys("maa rastram");
-	    IForm.Zip().sendKeys("984823");
+	    IForm.Address1().sendKeys("dr.no-22");
+	    IForm.Address2().sendKeys("lane-2");
+	    IForm.State().sendKeys("Kansas");
+	    IForm.Zip().sendKeys("517501");
 	  
 	    
 	}
